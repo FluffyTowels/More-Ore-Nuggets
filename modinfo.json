@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "modid": "fluffytowelsmorenuggets",
+  "name": "More nuggets",
+  "description" : "A simple mod to increase or decrease the amount of ore nuggets you get from smashing ore chunks.",
+  "authors": ["FluffyTowels"],
+  "version": "1.0",
+  "dependencies": { 
+	"game": "1.18",
+	"survival": ""
+  }
+}

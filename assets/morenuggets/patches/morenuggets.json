@@ -1,0 +1,67 @@
+[
+	{ 
+		file: "game:itemtypes/resource/ore-graded",
+		op: "replace", 
+		path: "/attributes/metalUnitsByType", 
+		value: 
+		{
+			"ore-poor-cassiterite-*": 10,
+			"ore-medium-cassiterite-*": 20,
+			"ore-rich-cassiterite-*": 30,
+			"ore-bountiful-cassiterite-*": 40,
+			
+			"ore-poor-hematite-*": 40,
+			"ore-medium-hematite-*": 50,
+			"ore-rich-hematite-*": 60,
+			"ore-bountiful-hematite-*": 80,
+
+			"ore-poor-quartz_nativesilver-*": 20,
+			"ore-medium-quartz_nativesilver-*": 30,
+			"ore-rich-quartz_nativesilver-*": 40,
+			"ore-bountiful-quartz_nativesilver-*": 50,
+			
+			"ore-poor-quartz_nativegold-*": 10,
+			"ore-medium-quartz_nativegold-*": 20,
+			"ore-rich-quartz_nativegold-*": 30,
+			"ore-bountiful-quartz_nativegold-*": 40,
+			
+			"ore-poor-*":30,
+			"ore-medium-*": 40,
+			"ore-rich-*": 50,
+			"ore-bountiful-*": 70
+		}
+	},
+	
+	{ 
+		file: "game:itemtypes/resource/crystalizedore-graded",
+		op: "replace", 
+		path: "/attributes/metalUnitsByType", 
+		value: 
+		{
+			"*-poor-cassiterite-*": 20,
+			"*-medium-cassiterite-*": 40,
+			"*-rich-cassiterite-*": 60,
+			"*-bountiful-cassiterite-*": 80,
+			
+			"*-poor-hematite-*": 80,
+			"*-medium-hematite-*": 100,
+			"*-rich-hematite-*": 120,
+			"*-bountiful-hematite-*": 160,
+
+			"*-poor-quartz_nativesilver-*": 40,
+			"*-medium-quartz_nativesilver-*": 60,
+			"*-rich-quartz_nativesilver-*": 80,
+			"*-bountiful-quartz_nativesilver-*": 100,
+			
+			"*-poor-quartz_nativegold-*": 20,
+			"*-medium-quartz_nativegold-*": 40,
+			"*-rich-quartz_nativegold-*": 60,
+			"*-bountiful-quartz_nativegold-*": 80,
+			
+			"*-poor-*": 60,
+			"*-medium-*": 80,
+			"*-rich-*": 100,
+			"*-bountiful-*": 140
+		}
+	}
+]
